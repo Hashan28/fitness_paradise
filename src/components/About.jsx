@@ -60,7 +60,7 @@ const About = () => {
               transition={{ delay: 0.2 }}
               className="inline-block px-4 py-2 mb-6 text-sm font-semibold rounded-full bg-primary-100 text-primary-700"
             >
-              About Fitness Paradise
+              About Fitness Elite
             </motion.div>
 
             <motion.h2
@@ -70,7 +70,7 @@ const About = () => {
               className="mb-6 text-3xl font-bold text-gray-900 md:text-4xl lg:text-5xl font-display"
             >
               Where Fitness
-              <span className="text-primary-600"> Meets Paradise</span>
+              <span className="text-primary-600"> Meets Elite</span>
             </motion.h2>
 
             <motion.p
@@ -79,7 +79,7 @@ const About = () => {
               transition={{ delay: 0.4 }}
               className="mb-8 text-lg leading-relaxed text-gray-600"
             >
-              At Fitness Paradise, we believe that fitness is not just about building muscles or losing weight—it's about creating a lifestyle that promotes overall well-being. Our state-of-the-art facility, combined with expert guidance and a supportive community, provides the perfect environment for your transformation journey.
+              At Fitness Elite, we believe that fitness is not just about building muscles or losing weight—it's about creating a lifestyle that promotes overall well-being. Our state-of-the-art facility, combined with expert guidance and a supportive community, provides the perfect environment for your transformation journey.
             </motion.p>
 
             <motion.p

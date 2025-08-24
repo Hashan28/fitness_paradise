@@ -59,7 +59,7 @@ const Navbar = () => {
             <span className={`text-xl lg:text-2xl font-display font-bold ${
               isScrolled ? 'text-gray-900' : 'text-white'
             }`}>
-              Fitness Paradise
+              Fitness Elite
             </span>
           </motion.div>
 

@@ -61,7 +61,7 @@ const Hero = () => {
               transition={{ delay: 0.4 }}
               className="max-w-xl mb-8 text-base leading-relaxed text-gray-200 sm:mb-10 sm:text-lg md:text-xl"
             >
-              Join Fitness Paradise and embark on your fitness journey with state-of-the-art equipment,
+              Join Fitness Elite and embark on your fitness journey with state-of-the-art equipment,
               expert trainers, and a supportive community that will help you achieve your goals.
             </motion.p>
 
@@ -94,33 +94,6 @@ const Hero = () => {
               </motion.button>
             </motion.div>
 
-            {/* Stats */}
-            {/* <motion.div
-              initial={{ opacity: 0, y: 30 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.6 }}
-              className="grid grid-cols-2 gap-6 sm:grid-cols-4"
-            >
-              {stats.map((stat, index) => (
-                <motion.div
-                  key={index}
-                  initial={{ opacity: 0, scale: 0.8 }}
-                  animate={{ opacity: 1, scale: 1 }}
-                  transition={{ delay: 0.7 + index * 0.1 }}
-                  className="text-center group"
-                >
-                  <div className="flex items-center justify-center w-12 h-12 mx-auto mb-3 transition-colors rounded-lg bg-white/10 backdrop-blur-sm group-hover:bg-primary-600/20">
-                    <stat.icon className="w-6 h-6 text-primary-400" />
-                  </div>
-                  <div className="mb-1 text-2xl font-bold text-white md:text-3xl font-display">
-                    {stat.number}
-                  </div>
-                  <div className="text-sm text-gray-300">
-                    {stat.label}
-                  </div>
-                </motion.div>
-              ))}
-            </motion.div> */}
           </motion.div>
 
           {/* Right Side */}

@@ -3,8 +3,8 @@ import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { Instagram, Music2, Facebook, Star } from 'lucide-react';
 import { faker } from '@faker-js/faker';
-import sibi from '../assets/sibi.jpg'
-import chathu from '../assets/chathu.jpg'
+import trainer1 from '../assets/trainer4.jpg'
+import trainer2 from '../assets/trainer5.jpg'
 
 const Trainers = () => {
   const [ref, inView] = useInView({
@@ -24,10 +24,10 @@ const Trainers = () => {
   const trainers = [
     {
       id: 1,
-      name: 'Mr. Chathuranaga Kumara',
+      name: 'Mr. James Wilson',
       specialty: 'Strength, Bodybuilding & Nutrition',
       experience: '8 Years',
-      image: chathu,
+      image: trainer1,
       description: 'Certified personal trainer specializing in strength training and nutritional guidance. Helped 200+ clients achieve their fitness goals.',
       rating: 4.9,
       certifications: ['NASM-CPT', 'Nutrition Coach', 'Corrective Exercise'],
@@ -39,10 +39,10 @@ const Trainers = () => {
     },
     {
       id: 2,
-      name: 'Mr. Segar Sibishan ',
+      name: 'Mr. William Taylor ',
       specialty: 'Cardio Training & Strength Training',
       experience: '5 Years',
-      image: sibi,
+      image: trainer2,
       description: 'High-intensity interval training expert with a passion for helping clients build endurance and burn fat effectively.',
       rating: 4.8,
       certifications: ['ACSM-CPT', 'HIIT Specialist', 'Group Fitness'],
@@ -95,7 +95,7 @@ const Trainers = () => {
 
         {/* Trainers Grid */}
 
-        <div className="grid grid-cols-1  gap-8 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
           {trainers.map((trainer, index) => (
             <motion.div
               key={trainer.id}
